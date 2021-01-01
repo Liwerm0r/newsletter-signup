@@ -9,8 +9,6 @@
   "author": "Rafał Ostrowidzki",
   "license": "ISC",
   "dependencies": {
-    "@mailchimp/mailchimp_marketing": "^3.0.27",
-    "express": "^4.17.1",
-    "got": "^11.8.1"
+    "express": "^4.17.1"
   }
 }

@@ -3,6 +3,10 @@ body {
   height: 100%;
 }
 
+.h3 {
+  font-size: 1.65rem;
+}
+
 body {
   display: -ms-flexbox;
   display: flex;
