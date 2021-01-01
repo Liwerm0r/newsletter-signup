@@ -4,11 +4,17 @@ const express = require('express'),
       got = require('got');
 // support parsing post request
 app.use(express.urlencoded({extended: true}));
+// support filepaths for html's src and href
+app.use(express.static(`${__dirname}`));
+
 
 app.get("/", (req, res) => {
   res.sendFile(`${__dirname}/signup.html`);
 });
 
+app.post("/", (req, res) => {
+
+})
 
 
 
